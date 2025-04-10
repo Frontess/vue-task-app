@@ -1,0 +1,34 @@
+{
+  "name": "vue-task-app",
+  "version": "1.0.0",
+  "description": "SPA-приложение на Vue для управления задачами",
+  "main": "main.js",
+  "private": true,
+  "homepage": "https://Frontess.github.io/vue-task-app/",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "task-app",
+    "task-tracker",
+    "vue"
+  ],
+  "author": "frontess",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.0",
+    "gh-pages": "^6.3.0",
+    "vue-loader": "^17.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
